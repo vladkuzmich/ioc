@@ -1,6 +1,8 @@
-﻿namespace IoC.Data.Contracts
+﻿using IoC.Data.Contracts.Entities;
+
+namespace IoC.Data.Contracts
 {
-    public interface ICompanyRepository
+    public interface ICompanyRepository : IBaseRepository<Company>
     {
         // COMPANY SPECIFIC API
     }

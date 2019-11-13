@@ -1,4 +1,4 @@
-﻿namespace IoC.Data.Contracts
+﻿namespace IoC.Data.Contracts.Entities
 {
     public class EntityBase
     {

@@ -1,6 +1,8 @@
-﻿namespace IoC.Data.Contracts
+﻿using IoC.Data.Contracts.Entities;
+
+namespace IoC.Data.Contracts
 {
-    public interface IUserRepository
+    public interface IUserRepository : IBaseRepository<User>
     {
         // USER SPECIFIC API
     }

@@ -1,5 +1,6 @@
 ﻿using System;
 using IoC.Data.Contracts;
+using IoC.Data.Contracts.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace IoC.Data.Repositories

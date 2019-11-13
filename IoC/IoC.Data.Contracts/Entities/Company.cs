@@ -1,8 +1,6 @@
 ﻿using System.Collections.Generic;
-using IoC.Data.Contracts;
-using IoC.Data.Contracts.Entities;
 
-namespace IoC.Data.Entities
+namespace IoC.Data.Contracts.Entities
 {
     public class Company : EntityBase
     {
